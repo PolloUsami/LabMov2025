@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEBFF"
+    tools:context=".MainActivity">
+
+    <!-- https://www.flaticon.es/icono-gratis/tic-tac-toe_10199746 -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="216dp"
+        android:layout_height="205dp"
+        app:srcCompat="@drawable/im_tictactoe"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/itim"
+        android:text="Jugar"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/itim"
+        android:text="Opciones"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="206dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/itim"
+        android:text="Acerca de"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="76dp"
+        android:fontFamily="@font/itim"
+        android:text="Tic Tac Toe"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="292dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
