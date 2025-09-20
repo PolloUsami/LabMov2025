@@ -44,27 +44,12 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/main_start"
             android:layout_width="206dp"
             android:layout_height="49dp"
             android:fontFamily="@font/itim"
             android:text="Jugar"
             android:textSize="20sp" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/itim"
-            android:text="Opciones"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="206dp"
-            android:layout_height="49dp"
-            android:fontFamily="@font/itim"
-            android:text="Acerca de"
-            android:textSize="20sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

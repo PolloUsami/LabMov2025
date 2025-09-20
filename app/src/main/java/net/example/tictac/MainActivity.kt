@@ -1,18 +1,18 @@
 package net.example.tictac
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //enableEdgeToEdge()
 
+        val engine: GameEngine = GameEngine(this);
 
 
-        setContentView(R.layout.activity_main)
+        engine.show(R.layout.activity_main);
+
+
     }
 }
