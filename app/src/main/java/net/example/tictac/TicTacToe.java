@@ -12,6 +12,8 @@ public class TicTacToe {
     public static final int ICON_X = 1;
     public static final int ICON_O = 2;
 
+    public static int currentMoveIcon = ICON_X;
+
     public static final int[] GAME_BOARD = new int[3 * 3];
 
     public static void reset() {
